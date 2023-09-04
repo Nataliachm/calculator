@@ -1,0 +1,70 @@
+.containerComponent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    background-color: #900C3F;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.containertTitle{
+    display: flex;
+    align-items: center;
+    flex-grow: 1; 
+}
+
+h1{
+    margin: 0;
+    font-size: 20px;
+}
+
+.containerScreen{
+    display: flex;
+    height: 75px;
+    background-color: #C70039;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-content: end;
+    font-size: 30px;
+}
+
+p{
+    margin: 0;
+}
+
+.containerKeyboard{
+    flex-grow: 18;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #C70039;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#reset{
+    grid-column: span 2;
+   background-color: #FFC300;
+
+}
+
+#equal{
+    grid-column: span 2;
+    background-color:#b8d18b;
+}
+
+#del{
+    background-color: #FFC300;
+}
+
+
+
